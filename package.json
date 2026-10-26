@@ -6,6 +6,7 @@
   "author": "Tran Nhat Nguyen",
   "license": "MIT",
   "scripts": {
+    "start": "node index.js",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
