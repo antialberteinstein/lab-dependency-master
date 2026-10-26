@@ -5,6 +5,16 @@
   "main": "index.js",
   "author": "Tran Nhat Nguyen",
   "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }
